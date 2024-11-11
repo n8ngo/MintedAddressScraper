@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "MintedAddressScraper",
+  "version": "1.0.0",
+  "description": "Export your Minted address book.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.minted.com/addressbook/*"],
+      "js": ["./main.js"],
+      "css": ["./style.css"]
+    }
+  ],
+  "icons": {}
+}
